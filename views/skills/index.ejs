@@ -11,10 +11,11 @@
     <% skills.forEach(skill => { %>
       <li>
 				<%= skill.text %> 
-				- 
-				<%= skill.done ? 'done' : 'not done' %>
+        - 
+				<%= skill.done ? ' done' : ' not done' %>
 			</li>
     <% }) %>
   </ul>
+  <a href="/">Back</a>
 </body>
 </html>
